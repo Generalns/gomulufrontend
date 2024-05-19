@@ -440,7 +440,7 @@ export default function Home() {
               onClick={() => {
                 client.publish(
                   "gsu_baris_enes_rule",
-                  `light:${lightRule.condition}:${lightRule.brightnessOffset}:${fanRule.lightPower}`
+                  `light:${lightRule.condition}:${lightRule.brightnessOffset}:${lightRule.lightPower}`
                 );
               }}
               disabled={
